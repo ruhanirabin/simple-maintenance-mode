@@ -1,3 +1,4 @@
+<?php
 class SMMP_Update_Checker {
     private $repo_url;
     private $plugin_file;
