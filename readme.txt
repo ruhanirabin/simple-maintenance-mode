@@ -26,9 +26,9 @@ This plugin is designed to help you put your WordPress site into maintenance mod
 
 ### To install 1 Simple Maintenance Mode plugin, follow these steps:
 
-- Upload the plugin files to the /wp-content/plugins/1-simple-maintenance-mode directory, or install the plugin through the WordPress plugins screen directly.
-- Activate the plugin through the 'Plugins' screen in WordPress
-- Use the Settings->1 Simple Maintenance Mode screen to configure the plugin
+Upload the plugin files to the /wp-content/plugins/1-simple-maintenance-mode directory, or install the plugin through the WordPress plugins screen directly.
+Activate the plugin through the 'Plugins' screen in WordPress
+Use the Settings->1 Simple Maintenance Mode screen to configure the plugin
 == Frequently Asked Questions ==
 
 = How do I enable maintenance mode? =
