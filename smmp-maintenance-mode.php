@@ -3,7 +3,7 @@
  * Plugin Name:       Simple Maintenance Mode Plugin
  * Plugin URI:        https://www.ruhanirabin.com/simple-maintenance-mode/
  * Description:       A maintenance mode plugin that allows you to set a pre-existing page as a maintenance mode landing page and restrict access to other areas of the WordPress site.
- * Version:           0.2.3
+ * Version:           0.2.5
  * Requires at least: 6.0
  * Requires PHP:      7.4
  * Author:            Ruhani Rabin
@@ -15,10 +15,12 @@
  * Domain Path:       /languages
  */
 
-// Check if the current user has admin permissions
+ require_once 'smmp_update_checker.php';
+ // Check if the current user has admin permissions
 function smmp_is_admin() {
     return current_user_can('manage_options');
 }
+
 
 // load plugin text-domain
 function smmp_load_textdomain() {
@@ -151,3 +153,8 @@ function smmp_display_admin_notice() {
 }
 add_action('admin_notices', 'smmp_display_admin_notice');
 add_action('admin_bar_menu', 'smmp_add_top_bar_menu', 999);
+
+$update_checker = new SMMP_Update_Checker(
+    'https://github.com/ruhanirabin/simple-maintenance-mode',
+    __FILE__
+);
