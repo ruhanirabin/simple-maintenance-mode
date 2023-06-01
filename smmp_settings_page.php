@@ -1,5 +1,5 @@
 <div class="wrap">
-<h1><?php _e('Simple Maintenance Mode Settings', 'smmp_maintenance_mode'); ?></h1>
+<h1><?php _e('1 Simple Maintenance Mode Settings', 'smmp_maintenance_mode'); ?></h1>
     <form method="post" action="">
         <table class="form-table">
             <tr>
