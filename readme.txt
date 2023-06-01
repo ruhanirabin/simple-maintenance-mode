@@ -1,7 +1,7 @@
 === 1 Simple Maintenance Mode ===
 Contributors: ruhanirabin
 Tags: maintenance mode, under construction, coming soon, plugin
-Donate link: https://tareq.co/donate/
+Donate link: https://paypal.me/ruhanirabin
 Requires at least: 6.0
 Tested up to: 6.2
 Stable tag: trunk
